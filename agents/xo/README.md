@@ -1,15 +1,30 @@
 # XO Agent — Executive Officer
 
-The XO agent is the primary orchestrator. It receives a task or commander's intent, delegates to the appropriate staff sections, and synthesizes their outputs into a final staff product.
-
-## Usage
-
-1. Provide commander's intent or a specific task
-2. The XO will identify which staff sections need to contribute
-3. Spin up the relevant section agents (S1–S6, SGM, Chaplain) as needed
-4. XO integrates outputs and produces the final product
+The XO is the primary orchestrator. It receives a task or commander's intent, decomposes it into staff actions, delegates to the appropriate sections, and synthesizes outputs into a final staff product.
 
 ## Files
 
-- `system_prompt.md` — XO role definition and behavior instructions
-- `context.md` — Default context injected into XO sessions
+| File | Purpose |
+|------|---------|
+| `system_prompt.md` | Core XO prompt — LLM-agnostic, works in Claude, GPT, Gemini, etc. |
+| `CLAUDE.md` | Claude Code usage instructions and workflow |
+| `orchestration.md` | Delegation pattern, planned skills, and MCP server roadmap |
+
+## Quick Start (Claude Code)
+
+```
+/xo
+```
+
+## Quick Start (Browser / Other LLMs)
+
+Copy the contents of `system_prompt.md` into the system prompt field. Then begin your session with commander's intent or a task.
+
+## Outputs
+
+The XO produces Army-standard staff products:
+- Decision Briefs
+- OPORDs / FRAGOs / WARNOs
+- Staff Estimates
+- Briefings (SBFDRC format)
+- Risk Assessments
