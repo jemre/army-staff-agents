@@ -205,3 +205,7 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Staff products and agent outputs — not tracked in version control
+# Distribute via email, not GitHub
+outputs/

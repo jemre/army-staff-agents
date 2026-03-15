@@ -23,4 +23,14 @@ Use these to:
 2. Start with `/xo` (or the lead agent specified in the scenario)
 3. Paste the **Commander's Input** from the scenario's `input.md`
 4. Follow the agent prompts — invoke section agents as directed
-5. Compare output against `expected_output.md` and evaluate using the criteria in `evaluation.md`
+5. Save the output to `outputs/` using the naming convention: `YYYYMMDD_scenario##_description.md`
+6. Evaluate the output against the criteria in `evaluation.md`
+
+## Output Convention
+
+All agent-produced products go in `outputs/` at the project root — this folder is not tracked by Git.
+
+**Naming:** `YYYYMMDD_scenario##_short_description.md`
+**Example:** `20260315_scenario01_live_fire_risk_assessment.md`
+
+Outputs are distributed via email, not through GitHub.
