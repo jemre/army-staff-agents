@@ -10,14 +10,13 @@ XO, I need a risk assessment for a battalion-level live fire exercise next week.
 
 ---
 
-## Agents to Invoke
-
+## Agents to Invoke (recommended, but use any agents necessary to develop a good product)
 1. `/xo` — Receives the task, decomposes it, coordinates sections
 2. `/s3` — Training event plan, range safety, control measures
 3. `/s4` — Medical coverage, equipment readiness, water resupply
 
 ## Expected Product
-
+- Write products to /outputs. Use a 
 - Risk Assessment (hazard identification, probability/severity, controls, residual risk)
 - Go/No-Go recommendation with rationale
 - Commander's decision brief format (optional stretch)
