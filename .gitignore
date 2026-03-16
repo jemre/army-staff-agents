@@ -209,3 +209,6 @@ __marimo__/
 # Staff products and agent outputs — not tracked in version control
 # Distribute via email, not GitHub
 outputs/
+
+# References such as Army doctrine shouldn't be tracked in version control.
+references/
