@@ -14,6 +14,7 @@ Use these to:
 | # | Name | Agents Exercised | Product Type | Complexity |
 |---|------|-----------------|--------------|------------|
 | 01 | [Training Event Risk Assessment](01_training_risk_assessment/) | XO, S3, S4 | Risk Assessment + Go/No-Go Recommendation | Low |
+| 02 | [Receipt of Mission — III CORPS OPORD 32205-26](02_receipt_of_mission/) | XO, S2, S3, S4, S1, S6 | WARNO #1, Time Analysis, Planning Timeline, Staff Initial Tasks | High |
 
 ---
 
