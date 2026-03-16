@@ -33,3 +33,11 @@ Use this checklist to evaluate agent output after running the scenario.
 - [ ] Risk assessment structured (hazard / probability / severity / initial risk / controls / residual risk)
 - [ ] Military language used appropriately
 - [ ] Recommendation explicitly stated
+
+## Accuracy and Intellectual Honesty
+- [ ] No specific data invented — any unit designations, grid coordinates, strengths, or figures are either from injected context or clearly marked as placeholders (`[UNIT]`, `[GRID]`, etc.)
+- [ ] Epistemic status labeled — facts, assessments, and assumptions are distinguishable (e.g., doctrinal planning factors labeled as such, not presented as actual on-hand data)
+- [ ] No false precision — specific numbers (water quantities, personnel counts) are tied to a stated basis (doctrinal planning factor, injected data) rather than stated as if confirmed
+- [ ] Gaps surfaced explicitly — if information was missing, agents said so rather than filling the gap with inference presented as fact
+- [ ] Agents stayed in scope — no section overclaimed expertise outside its lane (e.g., S4 did not make range safety calls; S3 did not invent logistics figures)
+- [ ] No hedging that obscures uncertainty — agents used direct language ("I don't have that information") rather than vague qualifiers that hide gaps
