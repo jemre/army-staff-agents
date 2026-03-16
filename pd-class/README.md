@@ -17,6 +17,8 @@ Professional development instruction materials on Prompt and Context Engineering
 
 ## Class Outline
 
+### Title: Prompt & Context Engineering: Turning AI into Your Most Reliable Staff Officer
+
 | # | Topic | Time |
 |---|-------|------|
 | 1 | Welcome, introduction, and why this matters | 5 min |
@@ -31,7 +33,7 @@ Professional development instruction materials on Prompt and Context Engineering
 ---
 
 ## Bonus Topics *(if extending past 60 min)*
-
+- **AI in the Terminal**
 - **Agents**
   - Tool Use
   - Model Context Protocol (MCP)
