@@ -8,7 +8,7 @@
 **Prompt & Context Engineering:**
 **Turning AI into Your Most Reliable Staff Officer**
 
-*[Your name, unit, date]*
+MAJ Jamie Moore, 671st TC, 27MAR2026
 
 ---
 

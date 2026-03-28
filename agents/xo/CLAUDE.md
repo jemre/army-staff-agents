@@ -44,8 +44,16 @@ Or reference them directly in your first message to the XO.
 5. Return section outputs to the XO for integration
 6. XO produces the final staff product
 
+## Output Location
+
+All completed staff products are saved to the **`outputs/` folder at the project root**. This folder is git-ignored and is the correct location for all agent-produced products.
+
+- **Path:** `outputs/YYYYMMDD_<product_name>.md`
+- Example: `outputs/20260316_S2_intel_running_estimate.md`
+- The XO is responsible for communicating this path to all staff agents (S1, S2, S3, S4, S6, FSO, SGM, Chaplain) when invoking them, so every section writes its products to the correct location.
+- Do **not** save to `products/` or scenario subfolders.
+
 ## Tips
 
 - Keep context files short and structured — the XO performs better with clean, factual context
 - For large products (OPORDs, full briefings), break into phases: planning, drafting, refinement
-- Save completed products to `products/` with a date prefix: `YYYYMMDD_product_name.md`

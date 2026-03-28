@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find c:Militaryprojectsarmy-staff-agents -name *III_CORPS_OPORD* -o -name *mission*)",
+      "Bash(grep -E \"\\\\.\\(md|txt\\)$\")",
+      "Bash(python -c \":*)",
+      "WebFetch(domain:geocoding-api.open-meteo.com)",
+      "WebFetch(domain:api.open-meteo.com)"
+    ]
+  }
+}
